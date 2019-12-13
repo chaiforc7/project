@@ -653,7 +653,7 @@ a:hover{
 }
 .contain{
     width: 100%;
-    margin: 0 0 0 50px;
+    margin: 0 0 0 20px;
     display: inline-block;    
 
 }
@@ -661,8 +661,8 @@ a:hover{
     display: none;
 }
 .button{
-    width: 100px;
-    margin: 400px auto 0;
+    width: 90px;
+    margin: 400px 0px 0;
 }
 }
 
@@ -805,7 +805,7 @@ a:hover{
 .container2 .about{
     margin: 0px -15px;
     width: 100%;
-    height: 550px;
+    height: 600px;
 }
 
 #abouthead {
@@ -956,7 +956,7 @@ a:hover{
     height: 300px;
     background-color: rgb(25, 25, 25);
     border-radius: 20px;
-    margin:20px 20px;
+    margin:20px 10px;
     padding: 30px;
     display: inline-block;  
     line-height: 30px;
@@ -965,7 +965,7 @@ a:hover{
 .maincontent div h5{
     color: wheat;
     margin-top:-10px;
-    font-size: 17px;
+    font-size: 15px;
     word-spacing: normal;    
 }
 .maincontent .content3{
@@ -975,7 +975,7 @@ a:hover{
     display: none;
 }
 .button3 p{
-    margin: 0 130px;
+    margin: 0 60px;
 }
 }
 
@@ -1227,12 +1227,12 @@ progress::-webkit-progress-value{
 .skills_content div h4{
     color: white;
     width: 100%;
-    word-spacing: 200px;
+    word-spacing: 150px;
     margin-bottom: -25px;
     padding-top: 20px;
 }
 progress{
-    width: 400px;   
+    width: 300px;   
 }
 progress::-webkit-progress-value{
     border-radius: 20px;
@@ -1587,43 +1587,7 @@ display: none;
     display: none;
 }
 .contentb_2{
-    width: 100%;
-    height: 100px;
-    background-image: none;
-    margin-top: 300px;
-    margin-left: 20px;    
-}
-.first_b2{
-    display: inline-block;
-    width: 100%;
-    margin: 0 auto;
-}
-.first_b2 div{
-    width: 100%;
-    height: 100px;
-    padding: 30px 40px 0;
-    margin-right: -150px;
-    margin-bottom: 90px;
-}
-.first_b2 .blocks_b2 p{
-    font-size: 20px; 
-    margin-left: 0px;
-}
-.first_b2 .blocks_b2 h4{
-     margin-left: 10px;
-}
-.second_b2 {
-    display: none;
-
-}
-.second_b2 h3{
-    display: none;
-}
-.second_b2 p{
-  display: none;   
-}
-.button3 h5{
-display: none;
+   display: none  
 }
 }
 
@@ -1918,7 +1882,7 @@ footer p{
     margin: 0 auto;
 } 
  .contact_icons p{
-    margin-right: -30px;
+    margin-right: 10px;
     margin-left: -10px;
     width: 50%;
     height: 250px;
@@ -1929,23 +1893,23 @@ footer p{
     float: left;
 }
 .icons_label .contentc1{
-    font-size: 15px;
-    margin-left: 30px;
+    font-size: 13px;
+    margin-left: 0px;
     margin-top: -20px;
 }
 .icons_label .contentc2{
-    font-size: 15px;
-    margin-left: 250px;
+    font-size: 13px;
+    margin-left: 180px;
     margin-top: -500px;
 }
 .icons_label .contentc3{
-    font-size: 15px;
-    margin-left: 60px;
+    font-size: 13px;
+    margin-left: 40px;
     margin-top: 130px;
 }
 .icons_label .contentc4{
-    font-size: 15px;
-    margin-left: 20px;
+    font-size: 13px;
+    margin-left: 40px;
     margin-top: 130px;
 }
 .form{
