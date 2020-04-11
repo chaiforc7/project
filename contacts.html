@@ -53,30 +53,30 @@
             </nav>
         </div>
 
-    <div class="container" id="Contact">
-        <div class="container" id="maincon">
-            <img src="http://pluspng.com/img-png/png-men-men-png-495.png" class="img-rounded">
-                <div role="form" id="money" >
+        <div class="container" id="Contact">
+            <div class="container" id="maincon">
+                <img src="http://pluspng.com/img-png/png-men-men-png-495.png" class="img-rounded">
+                <div role="form" id="money">
                     <div class="form-group">
                         <label for="name">Name:</label>
-                        <input type="text" placeholder="Enter name" id="name" class="form-control">
+                        <input type="text" placeholder="Enter name" id="Name1" onchange="handleChange()" class="form-control">
                     </div>
                     <div class="form-group">
                         <label for="Email">Email:</label>
-                        <input type="text" placeholder="Enter Email" id="name" class="form-control">
+                        <input type="text" placeholder="Enter Email" id="Email" onchange="handleChange()" class="form-control">
                     </div>
                     <div class="form-group">
-                        <label for="Subject">Subject:</label>
-                        <input type="text" placeholder=" Subject..." id="name" class="form-control">
+                        <label for="Subject">Phone Number</label>
+                        <input type="tel" placeholder=" Subject..." id="tel" onchange="handleChange()" class="form-control">
                     </div>
                     <div class="form-group">
                         <label for="Textarea">Message:</label>
-                        <textarea placeholder=" Message..." id="name" class="form-control" rows="4"></textarea>
+                        <textarea placeholder=" Message..." id="message" onchange="handleChange()" class="form-control" rows="4"></textarea>
                     </div>
 
-                    <button type="submit" class="btn btn-default bg-info">
-                        Sumbit
-                    </button>
+                    <a href="https://wa.me/2348132030908?text=${usermessage}"  id="whatsapp"><button onclick="change" type="submit" class="btn btn-default bg-info">
+                            Sumbit
+                        </button></a>
                 </div>
             </div>
 
@@ -119,44 +119,46 @@
             </div>
 
             <div class="container" id="part_3">
-                <div class="container" >
-                        <h3>About</h3>
-                        <p>Far far away, behind the word mountains,<br>
+                <div class="container">
+                    <h3>About</h3>
+                    <p>Far far away, behind the word mountains,<br>
                         far from the countries Vokalia and
                         Consonantia, there lived the blind texts</p>
-                    </div>
-
-                    <div class="Container">
-                        <h3>Services</h3>
-                        <p>+ Web Design</p>
-                        <p>+ Web Development</p>
-                        <p>+ Business Strategy</p>
-                        <p>+ Data Analysis</p>
-                        <p>+ Graphic Design</p>
-                    </div>
-                    <div class="Container">
-                        <h3>Have a Question?</h3>
-                        <br>
-                        <p>+203 Fake St.Mountain view,
-                            
-                            <p> San Francisco, California,USA. </p>
-                            <p>+ 2 392 3929 210</p>
-                            <p>+ info@yourdomain.com</p>
-
-                    </div>
                 </div>
-                <div class="container" id="Icons">
-                    <a href="https//www.twitter.com" target="blank"><img class="img-rounded" src="/ICONS/twitter.png"></a>
-                    <a href="https//www.facebook.com" target="blank"><img class="img-rounded" src="/ICONS/facebook.png"></a>
-                    <a href="https//www.instagram.com" target="blank"><img class="img-rounded" src="/ICONS/instagram.png"></a>
+
+                <div class="Container">
+                    <h3>Services</h3>
+                    <p>+ Web Design</p>
+                    <p>+ Web Development</p>
+                    <p>+ Business Strategy</p>
+                    <p>+ Data Analysis</p>
+                    <p>+ Graphic Design</p>
+                </div>
+                <div class="Container">
+                    <h3>Have a Question?</h3>
+                    <br>
+                    <p>+203 Fake St.Mountain view,
+
+                        <p> San Francisco, California,USA. </p>
+                        <p>+ 2 392 3929 210</p>
+                        <p>+ info@yourdomain.com</p>
+
                 </div>
             </div>
-
-            <footer class="container">
-                <p>Copyright @2019 All rights reserved|This template is made by Greenfonts</p>
-            </footer>
-
+            <div class="container" id="Icons">
+                <a href="https//www.twitter.com" target="blank"><img class="img-rounded" src="/ICONS/twitter.png"></a>
+                <a href="https//www.facebook.com" target="blank"><img class="img-rounded" src="/ICONS/facebook.png"></a>
+                <a href="https//www.instagram.com" target="blank"><img class="img-rounded"
+                        src="/ICONS/instagram.png"></a>
+            </div>
         </div>
+
+        <footer class="container">
+            <p>Copyright @2019 All rights reserved|This template is made by Greenfonts</p>
+        </footer>
+
+    </div>
+    <script src="./index.js"></script>
 </body>
 
 </html>
